@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 20, 2021, 2:38:08 PM
+    Author     : m80007273
+*/
+h1 {
+color: #A4A400;
+background-color: #F0F0F0;
+font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+text-align: center;
+font-size: 22pt;
+font-weight: bold;
+text-decoration: underline;
+}
+
+h2 {
+color: #A4A400;
+background-color: #F0F0F0;
+font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+text-decoration: underline;
+text-align: left;
+font-size: 18pt;
+font-weight: normal;
+
+
+}
+#list1{
+    list-style-type: none;
+    text-align: left;
+    text-indent: -38px;
+}
+#list2{
+    list-style-type: disc;
+    list-style-image: url('Images/pie_icon.gif');
+}
+.list3{
+    list-style-type: circle;
+}
+body{
+    background: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, sarif;
+    background-image: url("./Images/silverware.jpg");
+    background-repeat: repeat-x,repeat-y;
+    
+}
+.link{
+color: #A4A400;
+}
+.copyright{
+    font: monospace;
+    text-align: right;
+    text-align-last: initial;
+}
+.qoute{
+    background: #FFFFA8;
+    font-style: italic;
+    
+}
+strong{
+    font-weight: bold;
+}
+ul {
+  list-style-image: url('Images/pie_icon.gif');
+}
