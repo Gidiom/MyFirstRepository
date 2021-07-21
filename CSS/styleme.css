@@ -3,20 +3,20 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-/*
+/* 
     Created on : Jul 20, 2021, 8:48:45 PM
     Author     : m80007273
 */
 
 h1{
-    color: blue;
+    color: darkblue;
 }
 h2{
-    color: lightblue;
+    color: blue;
 }
 .column {
   float: left;
-  width: 33.33%;
+  width: 340px;
   padding: 25px;
 }
 
@@ -35,4 +35,24 @@ strong{
 ol{
     display: flex;
     flex-direction: column-reverse;
+    padding: 20px;
+}
+body{
+    background-color: gainsboro;
+}
+.column0{
+    float: left;
+    align-content: center;
+    width: 39%;
+    
+/*    height: 20px;*/
+}
+.note{
+    color: red;
+}
+.link{
+color: #A4A400;
+color: green;
+font: bold;
+text-align: right;
 }

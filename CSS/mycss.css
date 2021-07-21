@@ -3,7 +3,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-/*
+/* 
     Created on : Jul 20, 2021, 2:38:08 PM
     Author     : m80007273
 */
@@ -34,41 +34,41 @@ font-weight: normal;
     text-indent: -38px;
 }
 #list2{
-    /* list-style-type: disc; */
-    list-style-image: url('../images/pie_icon.gif');
+/*    list-style-type: disc;*/
+    list-style-image: url("../Images/pie_icon.gif");
 }
 .list3{
     list-style-type: circle;
+    list-style-image: url("../Images/pie_icon.gif");
 }
 body{
     background: white;
     color: #404040;
     font-size: 11pt;
     font-family: Georgia, Garamond, sarif;
-    background-image: url("../images/silverware.jpg");
+    background-image: url("../Images/silverware.jpg");
     background-repeat: repeat;
+    /*overflow: hidden;*/
     background-attachment: fixed;
-
+    
 }
 .link{
 color: #A4A400;
 }
 .copyright{
-    /*font: monospace;*/
+/*    font:monospace;*/
     text-align: right;
     text-align-last: initial;
 }
 .qoute{
     background: #FFFFA8;
     font-style: italic;
-
+    
 }
 strong{
     font-weight: bold;
 }
-ul {
-  list-style-image: url('Images/pie_icon.gif');
-}
+
 #validators{
     text-align: right;
 }
