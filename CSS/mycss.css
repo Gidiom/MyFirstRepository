@@ -34,8 +34,8 @@ font-weight: normal;
     text-indent: -38px;
 }
 #list2{
-    list-style-type: disc;
-    list-style-image: url('./images/pie_icon.gif');
+    /* list-style-type: disc; */
+    list-style-image: url('../images/pie_icon.gif');
 }
 .list3{
     list-style-type: circle;
@@ -45,8 +45,8 @@ body{
     color: #404040;
     font-size: 11pt;
     font-family: Georgia, Garamond, sarif;
-    background-image: url("./images/silverware.jpg");
-    background-repeat: repeat-x,repeat-y;
+    background-image: url("../images/silverware.jpg");
+    background-repeat: repeat;
 
 }
 .link{
