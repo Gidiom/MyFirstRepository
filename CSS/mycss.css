@@ -46,7 +46,7 @@ body{
     color: #404040;
     font-size: 11pt;
     font-family: Georgia, Garamond, sarif;
-    background-image: url("../../images/silverware.jpg");
+    background-image: url("./../images/silverware.jpg");
     background-repeat: repeat;
     /*overflow: hidden;*/
     background-attachment: fixed;
