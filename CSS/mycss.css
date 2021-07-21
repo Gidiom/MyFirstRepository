@@ -68,3 +68,6 @@ strong{
 ul {
   list-style-image: url('Images/pie_icon.gif');
 }
+#validators{
+    text-align: right;
+}
