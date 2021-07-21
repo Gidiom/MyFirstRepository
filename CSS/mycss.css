@@ -3,7 +3,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-/* 
+/*
     Created on : Jul 20, 2021, 2:38:08 PM
     Author     : m80007273
 */
@@ -47,20 +47,20 @@ body{
     font-family: Georgia, Garamond, sarif;
     background-image: url("./Images/silverware.jpg");
     background-repeat: repeat-x,repeat-y;
-    
+
 }
 .link{
 color: #A4A400;
 }
 .copyright{
-    font: monospace;
+    /*font: monospace;*/
     text-align: right;
     text-align-last: initial;
 }
 .qoute{
     background: #FFFFA8;
     font-style: italic;
-    
+
 }
 strong{
     font-weight: bold;
