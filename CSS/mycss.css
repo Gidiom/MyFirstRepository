@@ -47,6 +47,7 @@ body{
     font-family: Georgia, Garamond, sarif;
     background-image: url("../images/silverware.jpg");
     background-repeat: repeat;
+    background-attachment: fixed;
 
 }
 .link{
