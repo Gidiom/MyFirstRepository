@@ -39,7 +39,7 @@ font-weight: normal;
     list-style-image: url("./../images/pie_icon.gif");
 }
 .list3{
-    list-style-type: circle;
+    /* list-style-type: circle; */
     list-style-image: url("./../images/pie_icon.gif");
     /* list-style-image: url("../images/pie_icon.gif"); */
 }
