@@ -1,0 +1,166 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 21, 2021, 6:11:35 PM
+    Author     : m80007273
+*/
+body{
+    background-image: url("../Images/background.png");
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+h1{
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+#topHead1{
+    background-image: url("../Images/bannerbg.png");
+    height: 50px;
+    background-repeat: repeat-x;
+    text-align: center;
+    
+}
+#bigBox{
+    text-align: center;
+    width: 800px;
+    border: 4px gray solid;
+    border-radius: 20px;
+    resize: both;
+    overflow: auto;
+    margin: auto; 
+/*    height: 900px;*/
+  
+}
+#leftSection{
+    width: 550px;
+    background-image: url("../Images/rbg.png");
+    height: 83px;
+    background-repeat: repeat-x;
+    /*border-radius: 20px;*/
+    border-top-left-radius: 20px;
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    text-align: left;
+    
+   
+    
+/*    border-top: 0px;*/
+/*    padding: 0px;
+    margin: 0px;*/
+}
+#firstRow{
+/*   width: 47%; */
+/*   margin-left: 2%;*/
+/*   margin-right: 2%;*/
+  
+   
+}
+/*#lefRight{
+    width: 47%; 
+    margin-left: 1%;
+    
+}
+*/#rightSection{
+    background-color: #A2B964;
+    width: 250px;
+    margin-top: 0px;
+    
+}
+#rightContainer1{
+/*    padding-left: 10pt;*/
+    float: right;
+    float: top;
+    margin-top: -852px;
+    width: 31.5%;
+    background-color: #A2B964;
+    padding: 0px;
+    text-align: left;
+    
+}
+/*#rightContainer2{
+    padding-left: 10pt;
+    background-color: red;
+}*/
+.leftReviews {
+    color: black;
+    font-weight: bold;
+    font-size: 8px;
+    background-color: #E8DC9B;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 8px;
+    width: 42%;
+     display: inline-block;
+     vertical-align: text-top;
+    margin-left: 2%;
+     
+/*    overflow: auto;*/
+
+}
+.author1{
+      color: black;
+    font-weight: bold;
+    font-size: 8px;  
+    display: inline-block;
+    vertical-align: 20pt;
+}
+.author2{
+    color: black;
+    font-weight: bold;
+    font-size: 8px;  
+    display: inline-block;
+    float: right;
+/*      color: black;
+    font-weight: bold;
+    font-size: 8px;  
+    display: inline-block;
+    padding-right: 27%;
+    display: inline-block;*/
+    
+}
+.author{
+     padding-left: 5px;
+}
+
+span{
+    font-style: italic;
+   
+}
+footer{
+/*    height: 3px;
+    background-color: red;
+    margin-bottom: -5px;*/
+    font-size: 8px;
+    color: black;
+    background-color: #A2B964;
+    text-align: center;
+    padding-bottom: 0pt;
+/*    border-bottom-right-radius: 20px;*/
+    border-bottom-left-radius: 16px;
+    border: 4px solid #A2B964;
+    text-align: center;
+    height: 12px;
+}
+dt{
+    padding-left: 8px;
+}
+#p33{
+        float: right;
+        margin-right: 250px;
+/*    margin-right: 270px;*/
+}
+#validators{
+    text-align: right;
+    padding-right: 0px;
+}
