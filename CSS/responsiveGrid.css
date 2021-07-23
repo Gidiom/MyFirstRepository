@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 22, 2021, 2:11:55 PM
+    Author     : m80007273
+*/
+#header {
+    grid-area:header;
+  background-color: lightblue;
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 35px;
+}
+#menu{
+    grid-area: menu;
+  overflow: hidden;
+  background-color: darkslategray;
+  padding: 0px;
+  display: flex;
+  height: 50px;
+  
+}
+#menu > div{
+  font-size: 20px;
+  color: white;
+  border-right: 2px solid #404040;
+  margin: 0px;
+  padding: 15px;
+  font-family: sans-serif;
+  align-content: center;
+  text-align: center;
+}
+/*#column{
+    display: flex;
+    flex-wrap: nowrap; 
+    background-color: lightgray;
+    height: 350px;
+}
+#column > div{
+padding: 10px;
+  font-size: 30px;
+}*/
+
+#col1,#col2,#col3{
+    height: 300px;
+    padding: 10px;
+}
+
+#col1{
+    grid-area: col1;
+    background-color: gray;
+/*    width: 25%;*/
+}
+#col2{
+    grid-area: col2;
+    background-color: darkgray;
+/*    width: 50%;*/
+}
+#col3{
+    grid-area: col3;
+    background-color: lightgray;
+   
+/*    width: 25%;*/
+}
+footer{
+    grid-area:footer;
+  background-color: darkslategray;
+  height: 50px;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 12px;
+  
+}
+
+.grid-content{
+    font-family: Times New Roman;
+    display: grid;
+    grid-template-areas: 
+        'header header header header'
+        'menu menu menu menu'
+        'col1 col2 col2 col3'
+        'footer footer footer footer'
+        
+}
+
+@media (max-width: 600px){
+    .grid-content{
+       grid-template-areas: 
+        'header header'
+        'menu menu'
+        'col1 col3'
+        'col2 col2'
+        'footer footer'
+    }
+    
+}
+#validators{
+    text-align: right;
+    padding-right: 0px;
+}
