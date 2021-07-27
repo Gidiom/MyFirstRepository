@@ -9,7 +9,8 @@ header{
     font-size:larger;
     font-weight:bold;
     color:white;
- 
+    border-radius: 10px;
+
 }
 #s{
     border:0px;
@@ -45,7 +46,7 @@ header>div{
 }
 #suplier {
     grid-area: supplier;
- 
+
 }
 #dsupp {
     grid-area: dsup;
@@ -77,26 +78,26 @@ input, select {
    padding-right:0px;
 /*   border: 3px solid #404040;*/
    width: 100%;
-   margin-right: 0px; 
+   margin-right: 0px;
    display: flex;
    text-align: right;
 }
 
 #add{
    position:absolute;
-    right:80px; 
+    right:80px;
     height: 50px;
     width: 120px;
     border-radius: 10px;
     color:dodgerblue;
     border: 4px solid dodgerblue;
     font-size: 18px;
-    
+
 }
 
 #cancel{
    position:absolute;
-    right:225px; 
+    right:225px;
     border: 4px solid orange;
      height: 50px;
      width: 80px;
@@ -107,7 +108,7 @@ input, select {
 
 #reset{
    position:absolute;
-    right:340px; 
+    right:340px;
      height: 50px;
      width: 80px;
      border-radius: 10px;
@@ -121,4 +122,3 @@ input, select {
     right:90px;
     border:0px;
 }*/
-
