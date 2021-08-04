@@ -3,7 +3,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-/* 
+/*
     Created on : Aug 4, 2021, 1:25:15 AM
     Author     : m80007273
 */
@@ -11,14 +11,14 @@ and open the template in the editor.
  #myForm{
                 border: 3px solid gray;
                 width: 25%;
-                margin-top: 30%;
+                margin-top: 27%;
                 padding-left: 2%;
                 padding: 1%;
                 position: fixed;
                 background-color: lavender;
                 /*color: lightblue;*/
             }
-            
+
 #submit{
                 width: 100px;
                 background: deepskyblue;
@@ -28,7 +28,7 @@ and open the template in the editor.
                 font-weight: bold;
 
             }
-            
+
 #container {
             position: absolute;
             top: 0;
@@ -36,7 +36,7 @@ and open the template in the editor.
             left: 0;
             bottom: 0;
             }
-            
+
 .circles {
             position: absolute;
             border-radius: 50%;
@@ -44,11 +44,11 @@ and open the template in the editor.
 
 .circles:hover {
                 opacity: 0.7;
-            } 
-            
-#validate{     
+            }
+
+#validate{
                /*margin-bottom: 0%;*/
                position: fixed;
-               margin-top: 49%;
+               margin-top: 46%;
                padding-left: 2%;
             }
