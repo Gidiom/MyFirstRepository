@@ -11,7 +11,7 @@ and open the template in the editor.
  #myForm{
                 border: 3px solid gray;
                 width: 25%;
-                margin-top: 27%;
+                margin-top: 30%;
                 padding-left: 2%;
                 padding: 1%;
                 position: fixed;
@@ -49,6 +49,6 @@ and open the template in the editor.
 #validate{
                /*margin-bottom: 0%;*/
                position: fixed;
-               margin-top: 46%;
+               margin-top: 49%;
                padding-left: 2%;
             }
