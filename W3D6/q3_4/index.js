@@ -36,7 +36,6 @@ app.get('/product/:id', (req, res) => {
 });
 
 app.post('/addToCart', (req, res) => {
-    //dynamically adding products to cart
     CART.push(PRODUCTS.find(e => e.id === parseInt(req.body.id)));
     res.render("shoppingcart", {
         products: CART
